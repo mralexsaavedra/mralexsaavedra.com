@@ -28,25 +28,19 @@ import ExternalLink from '../components/ExternalLink.astro'
             class='font-mono text-foreground hover:underline'
           >
             Lookiero,
-          </ExternalLink> donde llevo casi cuatro años centrado en crear software
-          de alta calidad.
+          </ExternalLink> donde llevo más de cuatro años en un monorepo de frontend
+          a escala real — React, TypeScript, Clean Architecture y DDD aplicados a
+          producto en producción.
         </p>
         <p>
-          Trabajo con <span class='font-mono text-foreground'>React</span> y <span
-            class='font-mono text-foreground'>TypeScript</span
-          >, aplicando principios de <span class='font-mono text-foreground'
-            >Clean Architecture</span
-          > y <span class='font-mono text-foreground'>DDD</span> al frontend para
-          construir sistemas escalables y mantenibles a largo plazo.
-        </p>
-        <p>
-          También disfruto impulsando la comunidad tech local. Anteriormente
-          co-organicé el <ExternalLink
-            href='https://www.meetup.com/es-es/gdg-bilbao/'
+          Fuera del trabajo construyo proyectos open source y contribuyo a
+          otros. El más completo es <ExternalLink
+            href='https://github.com/mralexsaavedra/spotiarr'
             class='font-mono text-foreground hover:underline'
           >
-            GDG Bilbao.
-          </ExternalLink>
+            spotiarr
+          </ExternalLink> — un descargador self-hosted con stack full-stack propio
+          que uso como referencia de estas arquitecturas aplicadas a un producto real.
         </p>
       </div>
     </header>
@@ -60,23 +54,43 @@ import ExternalLink from '../components/ExternalLink.astro'
           title='spotiarr'
           href='https://github.com/mralexsaavedra/spotiarr'
         >
-          Automatización musical inspirada en Lidarr. Desarrollado aplicando
-          principios de <span class='font-mono text-foreground'>DDD</span> y <span
-            class='font-mono text-foreground'>Clean Architecture</span
-          >.
+          Descargador de Spotify self-hosted con integración Jellyfin/Plex.
+          Stack completo en <span class='font-mono text-foreground'
+            >TypeScript</span
+          >
+          — <span class='font-mono text-foreground'>Clean Architecture</span>,
+          cola asíncrona y sincronización en tiempo real.
         </ProjectItem>
 
         <ProjectItem
           title='spotdl-bot'
           href='https://github.com/mralexsaavedra/spotdl-bot'
         >
-          Bot de Telegram para descargar música de Spotify. Escrito en Python y
-          mencionado en el podcast <ExternalLink
+          Bot de Telegram para descargar música de Spotify. Escrito en <span
+            class='font-mono text-foreground'>Python</span
+          > y mencionado en el podcast <ExternalLink
             href='https://www.desdeelreloj.com/e1145/'
             class='font-mono text-foreground hover:underline'
           >
             Desde el Reloj.
           </ExternalLink>
+        </ProjectItem>
+
+        <ProjectItem
+          title='jellytube'
+          href='https://github.com/mralexsaavedra/jellytube'
+        >
+          Microservicio en <span class='font-mono text-foreground'
+            >TypeScript</span
+          >
+          que integra YouTube con Jellyfin/Plex sin almacenamiento local.
+        </ProjectItem>
+
+        <ProjectItem title='koma' href='https://github.com/mralexsaavedra/koma'>
+          Gestor de cómics self-hosted. Arquitectura <span
+            class='font-mono text-foreground'>Clean Architecture</span
+          > estricta — core sin dependencias de framework, completamente testable
+          en aislamiento.
         </ProjectItem>
       </div>
     </div>
@@ -102,6 +116,13 @@ import ExternalLink from '../components/ExternalLink.astro'
         class='font-mono font-medium text-muted-foreground transition-colors hover:text-foreground'
       >
         X
+      </ExternalLink>
+      <ExternalLink
+        href='/cv.pdf'
+        label='CV'
+        class='font-mono font-medium text-muted-foreground transition-colors hover:text-foreground'
+      >
+        CV
       </ExternalLink>
     </footer>
   </div>
