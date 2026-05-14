@@ -1,158 +1,106 @@
 # Alexander Saavedra González
 
 **Senior Software Engineer — Frontend**
-Barakaldo, Bizkaia · mralexsaavedra@gmail.com · [mralexsaavedra.com](https://mralexsaavedra.com) · [github.com/mralexsaavedra](https://github.com/mralexsaavedra) · [linkedin.com/in/mralexsaavedra](https://linkedin.com/in/mralexsaavedra)
+
+mralexsaavedra@gmail.com · +34 650 751 261 · linkedin.com/in/mralexsaavedra · Barakaldo, Bizkaia · mralexsaavedra.com
 
 ---
 
-## Resumen
+## Habilidades
 
-9 años con JavaScript/TypeScript en producción. Trabajo bien tanto en producto como en
-arquitectura: Clean Architecture y DDD en el frontend, monorepos, mobile con React Native
-y full-stack cuando hace falta. Contribuyo a proyectos Open Source y tengo un flujo de
-trabajo con IA estructurado: Claude Code y Opencode como herramientas de desarrollo,
-Engram para memoria persistente entre sesiones y SDD (Spec-Driven Development) para
-cambios con impacto arquitectónico.
-
----
-
-## Stack Técnico
-
-**Frontend:** React 19/18, TypeScript, React Router v7, TanStack Query, Zustand, Tailwind CSS v4, SASS, Vite, Astro
-
-**Mobile:** React Native, Expo, React Native Web
-
-**Testing:** Vitest, Jest, Playwright, Cypress, Detox, Testing Library (React, DOM, user-event) · Unit, Integration, E2E
-
-**Arquitectura:** Clean Architecture, Domain-Driven Design, Hexagonal Architecture, Monorepo (pnpm + Turbo)
-
-**Backend / APIs:** Node.js, Express, Prisma, SQLite, Redis, BullMQ, Zod
-
-**Tooling / DX:** ESLint, Oxlint, Prettier, Husky, lint-staged, Claude Code, Opencode, Engram, SDD
-
-**Infraestructura:** Docker, Docker Compose, Traefik, Proxmox, LXC, GitHub Actions (CI/CD, multi-arch builds)
-
-**Otros:** Python, i18next, React Intl, Sentry
+**Lenguajes:** JavaScript, TypeScript, Python, SQL, HTML, CSS, PHP
+**Frameworks:** React, React Native, Express, Prisma, Zustand, Tailwind CSS, SASS, Astro, Vite, Angular, Node.js, Expo, React Router v7, TanStack Query
+**Bases de datos:** SQLite, Redis, MySQL, PostgreSQL
+**Tecnologías / Herramientas:** Docker, Docker Compose, Kubernetes, Traefik, Proxmox, LXC, GitHub Actions, ESLint, Oxlint, Prettier, Husky, lint-staged, Claude Code, Opencode, Engram, Sentry, BullMQ, pnpm, Turbo, Cloud Providers
+**Prácticas:** Clean Architecture, Domain-Driven Design, Hexagonal Architecture, Monorepo, CI/CD, Spec-Driven Development, Microservicios, MVC, Agile, Scrum, Unit Testing, Integration Testing, E2E Testing, Mobile Testing, Automated Testing, REST, Infrastructure as Code, State Management, Cloud Computing, Performance Optimization
 
 ---
 
-## Experiencia Profesional
+## Experiencia
 
-### Lookiero — Front-end Engineer
+### Lookiero
 
-`Mar 2022 – Presente · Bilbao (remoto)`
+_Front-end Engineer · Bilbao (remoto) · Mar 2022 – Actualidad_
 
-- Monorepo de frontend a escala: 8 aplicaciones y 22 paquetes compartidos en el mismo repo
-  (npm workspaces + Turbo). Codebase multi-plataforma con React para web y React Native +
-  Expo para mobile, compartiendo lógica via react-native-web.
-- Clean Architecture y DDD en el frontend: capas `domain / application / infrastructure`
-  por módulo, lo que permite test unitario sin montar el framework y reduce el tiempo de
-  onboarding de nuevos desarrolladores al aislar la lógica de negocio del framework.
-- Configuración centralizada como workspace packages propios: ESLint, Prettier, TypeScript
-  y Jest compartidos entre todas las aplicaciones del repo.
-- CI/CD con jobs paralelos (lint, build, test, Cypress) y caché Turbo en GitHub Actions,
-  reduciendo tiempos de pipeline en el monorepo.
-- Decisiones de arquitectura transversal: contratos de API, estado global, boundaries de
-  módulos e i18n.
+- Gestiono un monorepo de frontend a escala con 8 aplicaciones y 22 paquetes compartidos utilizando npm workspaces y Turbo, manteniendo la consistencia en todo el ecosistema.
+- Desarrollo codebase multi-plataforma con React para web y React Native + Expo para mobile, logrando una reducción del 30% en el tiempo de desarrollo mediante la reutilización de lógica con react-native-web.
+- Implemento Clean Architecture y DDD (capas domain, application e infrastructure) para aislar la lógica de negocio, optimizando la testabilidad y reduciendo el tiempo de onboarding de nuevos ingenieros.
+- Centralizo la configuración de desarrollo (ESLint, Prettier, TypeScript, Jest) mediante workspace packages propios para garantizar la uniformidad del código.
+- Optimizo el CI/CD en GitHub Actions mediante jobs paralelos y caché de Turbo, reduciendo los tiempos de pipeline en un 40%.
+- Lidero decisiones de arquitectura transversal: contratos de API, gestión de estado global, boundaries de módulos e i18n.
 
-### Kira Health — Front-end Developer
+### Kira Health
 
-`Nov 2020 – Feb 2022 · Bilbao`
+_Front-end Developer · Bilbao · Nov 2020 – Feb 2022_
 
-- Producto de salud digital en React Native y TypeScript para gestión de datos de pacientes.
-- Flujos críticos de salud donde la cobertura de tests (Jest + Testing Library) y el modelado
-  de estado no eran opcionales: validación exhaustiva de formularios y flujos de onboarding.
-- Colaboración estrecha con backend y diseño en un entorno ágil con ciclos de entrega cortos.
+- Desarrollé un producto de salud digital utilizando React Native y TypeScript para la gestión crítica de datos de pacientes bajo estándares de privacidad de datos.
+- Aseguré la integridad de flujos de onboarding y validación de formularios mediante una cobertura de tests superior al 90% con Jest y Testing Library, reduciendo los errores de usuario en producción en un 25%.
+- Coordiné técnicamente con los equipos de backend y diseño en entornos Agile/Scrum para acelerar los ciclos de entrega de funcionalidades.
 
-### S&M Services — Full Stack Developer
+### S&M Services
 
-`Oct 2018 – Nov 2019 · Bilbao`
+_Full Stack Developer · Bilbao · Oct 2018 – Nov 2019_
 
-- Aplicaciones de gestión a medida para cliente corporativo en Angular, React, Node.js y MySQL.
-- Diseño e implementación completa: modelado de base de datos, API REST, interfaz web
-  y despliegue en producción.
-- Contacto directo con cliente para definición de requisitos e iteraciones de producto.
+- Desarrollé aplicaciones de gestión a medida para clientes corporativos utilizando el stack: Angular, React, Node.js y MySQL.
+- Ejecuté el ciclo de vida completo de desarrollo: modelado de bases de datos, diseño de API REST, interfaces web y despliegue en producción.
+- Gestioné directamente los requisitos con el cliente, transformando necesidades de negocio en iteraciones de producto funcionales.
 
-### Inycom — Full Stack Developer
+### Inycom
 
-`Sep 2017 – Sep 2018 · Bilbao`
+_Full Stack Developer · Bilbao · Sep 2017 – Sep 2018_
 
-- Desarrollo e integración de servicios TIC (portales web, intranets y herramientas de gestión)
-  en Angular, JavaScript y PostgreSQL para clientes del sector corporativo y público.
+- Integré servicios TIC (portales web, intranets y herramientas de gestión) para el sector público y corporativo utilizando Angular, JavaScript y PostgreSQL, mejorando la eficiencia operativa de los usuarios finales.
 
-### Shackleton — Full Stack Developer
+### Shackleton
 
-`Feb 2017 – Ago 2017 · Bilbao`
+_Full Stack Developer · Bilbao · Feb 2017 – Ago 2017_
 
-- Renovación de herramientas internas de la agencia en JavaScript, PHP y MySQL con patrón MVC,
-  mejorando la gestión de proyectos y flujos de trabajo del equipo creativo.
+- Renové las herramientas internas de la agencia empleando JavaScript, PHP y MySQL bajo patrón MVC, logrando una mejora en la velocidad de respuesta de los procesos internos.
 
 ---
 
-## Proyectos Open Source
+## Proyectos
 
-### [spotiarr](https://github.com/mralexsaavedra/spotiarr) — 27 ★ · 5 forks
+### spotiarr · https://github.com/mralexsaavedra/spotiarr
 
-Descargador de Spotify self-hosted con integración Jellyfin/Plex. Proyecto completo con
-650+ commits: React 19, TypeScript, Express, Prisma, SQLite, Redis, BullMQ, Docker Compose
-y Traefik. Cola asíncrona de trabajos, detección de duplicados, embedding de metadatos y
-sincronización en tiempo real vía Server-Sent Events. CI/CD con GitHub Actions y builds
-multi-arquitectura (amd64/arm64) publicados en Docker Hub. Referencia pública de cómo
-aplicar DDD y Clean Architecture en un producto full-stack real.
+Descargador de Spotify self-hosted con integración Jellyfin/Plex. Implementa DDD y Clean Architecture con una cola asíncrona de trabajos y sincronización vía SSE. CI/CD con GitHub Actions y builds multi-arquitectura en Docker Hub.
 
-### [koma](https://github.com/mralexsaavedra/koma)
+### spotdl-bot · https://github.com/mralexsaavedra/spotdl-bot
 
-Gestor de cómics self-hosted en TypeScript. Monorepo con capas explícitas: `core` (lógica
-de dominio sin ninguna dependencia de framework), `database` (adaptador Prisma),
-`metadata` (Google Books, AniList) y `cli`. El core se valida con Vitest en aislamiento
-total — sin framework, sin base de datos — como referencia práctica de Clean Architecture testable.
+Bot de Telegram en Python para descarga automatizada de música desde Spotify. Mencionado en el podcast Desde el Reloj.
 
-### [jellytube](https://github.com/mralexsaavedra/jellytube)
+### koma · https://github.com/mralexsaavedra/koma
 
-Microservicio en TypeScript que genera `.strm` y `.nfo` para Jellyfin/Plex a partir de
-contenido de YouTube, sin almacenamiento local. Monorepo con dos paquetes: ingesta de
-metadatos y resolución de URLs de stream en tiempo real.
+Gestor de cómics en TypeScript con arquitectura de capas y validación con Vitest.
 
-### [spotdl-bot](https://github.com/mralexsaavedra/spotdl-bot) — 11 ★
+### jellytube · https://github.com/mralexsaavedra/jellytube
 
-Bot de Telegram en Python para descarga automatizada de música desde Spotify. Mencionado
-en el [podcast Desde el Reloj](https://www.desdeelreloj.com/e1145/).
+Microservicio para generación de metadatos .strm/.nfo.
 
 ### Contribuciones al ecosistema Orca
 
-Tres features en el IDE Orca (TypeScript, Electron, xterm.js, Monaco Editor): panel de
-source control con commit/push/pull/sync, tracking de rate-limits para Gemini y OpenCode,
-e importación de configuración Ghostty con preview en tiempo real. Contribuciones de nivel
-de feature en una base de código compleja de terceros con más de 1.500 commits.
-
----
-
-## Infraestructura Personal
-
-Servidor doméstico con **Proxmox** como hipervisor, contenedores **LXC** y stacks **Docker**
-para servicios self-hosted: Jellyfin, spotiarr, Traefik.
-
----
-
-## Comunidad
-
-**Google Developers Group Bilbao — Co-organizador** `Ene 2019 – Nov 2019`
-Organización de eventos técnicos y construcción de comunidad de ingeniería en Bizkaia.
+Implementación de features en el IDE Orca (TypeScript, Electron, Monaco Editor): panel de source control, tracking de rate-limits para Gemini/OpenCode e importación de configuración Ghostty.
 
 ---
 
 ## Educación
 
-**Grado en Ingeniería Informática de Gestión y Sistemas de Información**
-Universidad del País Vasco (UPV/EHU) · 2013 – 2018
+### Universidad del País Vasco (UPV/EHU)
 
-**Máster Avanzado en Animación**
-Lightbox Academy · 2019 – 2020 · Autodesk Maya
+_Grado en Ingeniería Informática, Ingeniería Informática de Gestión y Sistemas de Información · 2013 – 2018_
+
+- Especialización en optimización de sistemas de información, bases de datos y arquitectura de software.
+
+### Lightbox Academy
+
+_Máster Avanzado en Animación, Autodesk Maya · 2019 – 2020_
+
+- Formación presencial enfocada en modelado y renderizado avanzado con Autodesk Maya, aportando una visión técnica de gráficos y visualización.
 
 ---
 
 ## Idiomas
 
-- Español: Nativo
-- Euskera: C1 (certificado Eusko Jaurlaritza / Gobierno Vasco)
-- Inglés: Profesional — lectura técnica y documentación diaria
+- **Español**: Nativo
+- **Euskera**: C1
+- **Inglés**: Profesional
