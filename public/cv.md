@@ -22,7 +22,7 @@ cambios con impacto arquitectónico.
 
 **Mobile:** React Native, Expo, React Native Web
 
-**Testing:** Vitest, Jest, Playwright, Cypress, Detox, Testing Library (React, DOM, user-event)
+**Testing:** Vitest, Jest, Playwright, Cypress, Detox, Testing Library (React, DOM, user-event) · Unit, Integration, E2E
 
 **Arquitectura:** Clean Architecture, Domain-Driven Design, Hexagonal Architecture, Monorepo (pnpm + Turbo)
 
@@ -30,7 +30,7 @@ cambios con impacto arquitectónico.
 
 **Tooling / DX:** ESLint, Oxlint, Prettier, Husky, lint-staged, Claude Code, Opencode, Engram, SDD
 
-**Infraestructura:** Docker, Docker Compose, Traefik, Proxmox, LXC, GitHub Actions
+**Infraestructura:** Docker, Docker Compose, Traefik, Proxmox, LXC, GitHub Actions (CI/CD, multi-arch builds)
 
 **Otros:** Python, i18next, React Intl, Sentry
 
@@ -59,27 +59,33 @@ cambios con impacto arquitectónico.
 
 `Nov 2020 – Feb 2022 · Bilbao`
 
-- Producto de salud digital en React y TypeScript. Flujos críticos de datos de paciente
-  donde el estado bien modelado y la cobertura de tests no eran opcionales.
+- Producto de salud digital en React Native y TypeScript para gestión de datos de pacientes.
+- Flujos críticos de salud donde la cobertura de tests (Jest + Testing Library) y el modelado
+  de estado no eran opcionales: validación exhaustiva de formularios y flujos de onboarding.
+- Colaboración estrecha con backend y diseño en un entorno ágil con ciclos de entrega cortos.
 
 ### S&M Services — Full Stack Developer
 
 `Oct 2018 – Nov 2019 · Bilbao`
 
-- Aplicaciones de gestión para cliente corporativo: diseño de API, base de datos, interfaz
-  y puesta en producción.
+- Aplicaciones de gestión a medida para cliente corporativo en Angular, React, Node.js y MySQL.
+- Diseño e implementación completa: modelado de base de datos, API REST, interfaz web
+  y despliegue en producción.
+- Contacto directo con cliente para definición de requisitos e iteraciones de producto.
 
 ### Inycom — Full Stack Developer
 
 `Sep 2017 – Sep 2018 · Bilbao`
 
-- Desarrollo e integración de servicios TIC para clientes del sector corporativo y público.
+- Desarrollo e integración de servicios TIC (portales web, intranets y herramientas de gestión)
+  en Angular, JavaScript y PostgreSQL para clientes del sector corporativo y público.
 
 ### Shackleton — Full Stack Developer
 
 `Feb 2017 – Ago 2017 · Bilbao`
 
-- Renovación de herramientas internas en JavaScript y MySQL.
+- Renovación de herramientas internas de la agencia en JavaScript, PHP y MySQL con patrón MVC,
+  mejorando la gestión de proyectos y flujos de trabajo del equipo creativo.
 
 ---
 
@@ -98,7 +104,8 @@ aplicar DDD y Clean Architecture en un producto full-stack real.
 
 Gestor de cómics self-hosted en TypeScript. Monorepo con capas explícitas: `core` (lógica
 de dominio sin ninguna dependencia de framework), `database` (adaptador Prisma),
-`metadata` (Google Books, AniList) y `cli`. El core es completamente testable en aislamiento.
+`metadata` (Google Books, AniList) y `cli`. El core se valida con Vitest en aislamiento
+total — sin framework, sin base de datos — como referencia práctica de Clean Architecture testable.
 
 ### [jellytube](https://github.com/mralexsaavedra/jellytube)
 
@@ -140,12 +147,12 @@ Organización de eventos técnicos y construcción de comunidad de ingeniería e
 Universidad del País Vasco (UPV/EHU) · 2013 – 2018
 
 **Máster Avanzado en Animación**
-Lightbox Academy · 2019 – 2020
+Lightbox Academy · 2019 – 2020 · Autodesk Maya
 
 ---
 
 ## Idiomas
 
 - Español: Nativo
-- Euskera: C1 (certificado Eusko Jaurlaritza)
-- Inglés: Profesional (lectura técnica diaria)
+- Euskera: C1 (certificado Eusko Jaurlaritza / Gobierno Vasco)
+- Inglés: Profesional — lectura técnica y documentación diaria
